@@ -1,0 +1,16 @@
+{
+  "name": "car-dealership-inventory-system",
+  "version": "1.0.0",
+  "description": "Full-stack Car Dealership Inventory System with Node.js, React, and MySQL",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["car-dealership", "inventory", "fullstack", "nodejs", "react", "mysql"],
+  "author": "",
+  "license": "ISC"
+}
